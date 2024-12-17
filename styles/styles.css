@@ -60,7 +60,7 @@ header nav ul li a:hover {
 }
 
 .cuerp{
-    background: #000 url(img/pexels-mikhail-nilov-9242907..PNG);
+    background: #000 url(../img/pexels-mikhail-nilov-9242907..PNG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ footer p{
     font-size: 20px;
 }
 .ppp{
-    background: #000 url(img/imagprod.PNG);
+    background: #000 url(../img/imagprod.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,4 +381,14 @@ footer p{
 }
 .bte p{
     margin: 3%;
+}
+@media (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+}
+@media(max-width: 480px){
+    body{
+        font-size: 12px;
+    }
 }
